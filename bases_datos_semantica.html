@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a las bases de datos</title>
+</head>
+<body>
+    <header>
+        <h1 id="INTRO">Introducción a las bases de datos</h1>
+    <hr>
+        <nav>
+            <ul>
+                <li><a href="#S1">Concepto y tipos</a></li>
+                <li><a href="#S2">Estructura de datos</a></li>
+                <li><a href="#S3">Relaciones</a></li>
+                <li><a href="#S4">Recursos de interés</a></li>
+            </ul>
+        </nav>
+    </header>
+<hr>
+
+<main>
+<section seccion="1">
+    <h2 id="S1">Concepto y Tipos de Bases de Datos</h2>
+<hr>
+        <article articulo="1">
+            <h3>Bases de datos Relacionales </h3>
+                <p>Las bases de datos relacionales organizan la información en tablas compuestas por filas y columnas, donde cada registro mantiene una estructura fija y una relación lógica entre sí. Este modelo garantiza una alta consistencia y es ideal para transacciones complejas que requieren un esquema rígido. Ejemplos líderes en la industria incluyen MySQL, PostgreSQL y Oracle.</p>
+        </article>
+        <article articulo="2">
+            <h3>Bases de datos No Relacionales</h3>
+            <p>Las bases de datos NoSQL gestionan almacenamiento no estructurado y semiestructurado, organizando la información de forma flexible mediante documentos, clave-valor o grafos. Esto permite procesar grandes volúmenes de datos masivos y cambiantes sin depender de esquemas rígidos. Ejemplos destacados de estas tecnologías incluyen MongoDB, Cassandra, Redis y Neo4j.</p>
+        </article>
+</section>
+<hr>
+<section seccion="2">
+    <h2 id="S2">Estructura de una Base de Datos Relacional</h2>
+<hr>
+        <article>
+            <h3>Componentes fundamentales</h3>
+            <ul>
+                <li><b>Tablas (entidades):</b>Estructuras donde se organizan los datos.</li>
+                <li><b>Campos (atributos):</b>Columnas que definen la tipología de información.</li>
+                <li><b>Registros (tuplas)</b>:Filas que contienen cada instancia concreta de datos.</li>
+                <li><b>Claves primarias (Primary Keys):</b>Identificadores únicos de cada registro.</li>
+            </ul>
+        </article>
+</section>
+<hr>
+<section seccion="3">
+    <h2 id="S3">Relaciones entre tablas</h2>
+<hr>
+        <article>
+            <h3>Cardinalidales fundamentales</h3>
+                <ul>
+                    <li>Relación 1:1 (Uno a uno)</li>
+                    <li>Relación 1:N (Uno a muchos)</li>
+                    <li>Relación N:M (Muchos a muchos)</li>
+                </ul>
+            <p>Una Clave Foránea (Foreign Key) es un campo que vincula dos tablas al apuntar a la clave primaria de otra, estableciendo una relación directa entre sus registros. Su función principal es garantizar la integridad referencial, asegurando que los datos conectados sean válidos, consistentes y no queden duplicados ni huérfanos.</p>
+        </article>
+</section>
+
+</main>
+<hr>
+<aside>
+    <h3 id="S4">Enlaces de interés</h3>
+        <h2>Glosario de términos</h2>
+            <ul>
+                <li><b>SQL:</b>Structured Query Languaje</li>
+                <li><b>SGBD:</b>Sistemas de gestión de base de datos</li>
+                <li><b>Normalización:</b>UTF-8</li>
+            </ul>
+</aside>
+<hr>
+<footer>
+    <p>Pablo Robles García, 1º ASIR</p>
+    <p>Derechos de autor</p>
+    <a href="#INTRO">INICIO</a>
+</footer>
+</body>
+</html>
