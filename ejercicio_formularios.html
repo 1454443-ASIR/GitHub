@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO FORMULARIOS</title>
+</head>
+<body>
+    <fieldset>
+        <legend>COMPLETA LOS SIGUIENTES CAMPOS</legend>    
+        <label for="color input">Elige el color que más te guste</label>
+        <input type="color" id="color input">
+        <br>
+        <textarea name="comentario" rows="5" columns="53" placeholder="Por favor, escriba aquí..."></textarea>
+        <br>
+        <label for="lenguaje">Te muestro una serie de lenguaje de marcas:</label>
+        <select name="Lenguaje" id="lenguaje">
+            <optgroup label="Java">
+                <option>java</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option>python</option>
+            </optgroup>
+            <optgroup label="HTML">
+                <option>html</option>
+            </optgroup>
+            <optgroup label="Visual Basic">
+                <option>visual basic</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="cicloasir">ASIR</label>
+            <input type="checkbox" name="ciclo" id="cicloasir">
+        <label for="ciclodam">DAM</label>
+            <input type="checkbox" name="ciclo" id="ciclodam">
+        <label for="ciclodaw">DAW</label>
+            <input type="checkbox" name="ciclo" id="ciclodaw">  
+        <br>
+        <label for="date_input">Elige la fecha</label>
+            <input type="date" id="date_input">
+        <br>
+        <label for="archivo">Adjunta tu archivo</label>
+            <input type="file" id="archivo">
+        <br>
+        <label for="listaciclos">Elije tu ciclo:</label>
+        <input type="text" id="ciclos" list="listaciclos">
+        <datalist id="listaciclos">
+            <option value="ASIR"></option>
+            <option value="DAM"></option>
+            <option value="DAW"></option>
+        </datalist>
+     </fieldset>
+</body>
+</html>
