@@ -6,6 +6,9 @@
     <title>EJERCICIO FORMULARIOS</title>
 </head>
 <body>
+    <h1>EJERCICIO FORMULARIOS</h1>
+    <HR>
+      <h2>FORMULARIO 1</h2>
     <fieldset>
         <legend>COMPLETA LOS SIGUIENTES CAMPOS</legend>    
         <label for="color input">Elige el color que más te guste</label>
@@ -49,6 +52,63 @@
             <option value="DAM"></option>
             <option value="DAW"></option>
         </datalist>
+     </fieldset>
+     <h2>FORMULARIO 2</h2>
+     <fieldset>
+        <legend>COMPLETA LOS SIGUIENTES CAMPOS</legend>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturalengua">Lengua</label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturamatematicas">Matemáticas</label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturahistoria">Historia</label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturageografia">Geografía</label>
+        <br>
+        <label>
+            <input type="checkbox" name="editor" value="editornotepad">Notepad
+        </label>
+        <label>
+            <input type="checkbox" name="editor" value="editoremacs">Emacs
+        </label>
+        <label>
+            <input type="checkbox" name="editor" value="editorotro">Otro
+        </label>
+        <br>
+        <textarea rows="5" columns="59" placeholder="Escriba aquí por favor"></textarea>
+        <br>
+        <label for="procesador">¿Qué procesador usas?</label>
+        <input type="text" id="procesador" list="procesadores">
+        <datalist id="procesadores">
+            <option>AMD</option>
+            <option>Intel</option>
+        </datalist>
+     </fieldset>
+     <br>
+     <h2>FORMULARIO 3</h2>
+     <fieldset>
+        <legend>COMPLETA LOS SIGUIENTES CAMPOS</legend>
+        <input type="radio" name="asignatura" value="asignaturageografia">Geografía
+        <input type="radio" name="asignatura" value="asignaturalengua">Lengua
+        <input type="radio" name="asignatura" value="asignaturamatematicas">Matemáticas
+        <input type="radio" name="asignatura" value="asignaturahitoria">Historia
+        <br>
+        <input type="time" name="control horario"> ¿Qué hora es?
+        <br>
+        <input type="checkbox" name="idioma" value="idiomaespanol">Español
+        <br>
+        <input type="checkbox" name="idioma" value="idiomaingles">Inglés
+        <br>
+        <input type="checkbox" name="idioma" value="idiomaaleman">Alemán
+        <br>
+        <input type="checkbox" name="idioma" value="idiomafrances">Francés
+        <br>
+        <input type="text" name="nombre">Nombre
+        <br>
+        <input type="text" name="apellidos">Apellidos
      </fieldset>
 </body>
 </html>
