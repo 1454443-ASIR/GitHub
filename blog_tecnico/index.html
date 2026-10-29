@@ -6,18 +6,19 @@
     <title>Blog Técnico</title>
 </head>
 <body>
-    <h1>AppleSoft</h1>
+    <h1 id="inicio">AppleSoft</h1>
     <p>En este blog encontrarás las noticias más importantes acerca de la informática</p>
     <nav>
         <ul>
-            <li></li>
-            <li></li>
+            <li><a href="#noticia1">Noticias sobre ciberseguridad</a></li>
+            <li><a href="#noticia2">Noticias sobre la la nube</a></li>
+            <li><a href="#noticia3">Noticias sobre copias de seguridad</a></li>
         </ul>
     </nav>
 
     <main>
         <article>
-            <h2>Alerta por fallos críticos en PHP</h2>
+            <h2> <a id="noticia1">Alerta por fallos críticos en PHP</a></h2>
             <time>2/10/2026 - 15:52 Patri Campos</time>
             <section>
                 <h3>¿Qué es PHP2Shell y por qué estos fallos críticos amenazan a los servidores web?</h3>
@@ -39,7 +40,7 @@
                       vulnerabilidad sin corregir pone en riesgo a numerosos servidores de forma simultánea.</p>
             </section>
             <hr>
-            <img src="imagenes/imagen1.jpeg" alt="Imagen de un servidor web" width="500" height="300">
+            <a href="https://www.rtve.es/noticias/20261022/fallos-criticos-php2shell-vulnerabilidades-servidores-alerta-ciberseguridad/17277748.shtml" target="_blank"><img src="imagenes/imagen1.jpeg" alt="Imagen de un servidor web" width="500" height="300"></a>
             <hr>
             <section>
                 <h3>¿Qué se sabe de los riesgos para los servidores y las páginas web en España?</h3>
@@ -60,9 +61,101 @@
                     a Internet, Incibe aconseja aislarlo de las redes públicas hasta que pueda instalarse
                     la solución definitiva.
                 </p>
-
+                <hr>
+                <form>
+                    <input type="text" placeholder="Introduce tu Nombre">
+                    <br>
+                    <input type="email" placeholder="Introduce tu Email">
+                    <br>
+                    <textarea placeholder="Introduce tu comentario">Introduce tu comentario</textarea>
+                    <br>
+                    <input type="checkbox">Acepto la política de privacidad
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </article>
+        <article>
+            <h2> <a id="noticia2">¿Qué es la migración a la nube?</a></h2>
+            <time>15/10/2026 - 9:44 Google Cloud</time>
+            <section>
+                <h3>¿Definición de migración a la nube</h3>
+                <p>La migración a la nube es el proceso de trasladar los recursos digitales de una organización, 
+                    incluidas las aplicaciones, las bases de datos, las cargas de trabajo de TI y los datos,
+                     de centros de datos locales o de un proveedor de servicios en la nube a otro entorno de 
+                     computación en la nube.</p>
+            </section>
+            <hr>
+            <a href="https://cloud.google.com/learn/cloud-migration?hl=es-419" target="_blank"><img src="imagenes/imagen2.jpg" alt="Imagen de cloud" width="500" height="300"></a>
+            <hr>
+            <section>
+                <h3>¿Por qué migrar a la nube?</h3>
+                <p>La migración a la nube puede ayudar a las organizaciones a trasladar los gastos de un modelo
+                     de gastos de capital a uno operativo, lo que reduce la necesidad de poseer, operar, mantener y
+                      actualizar equipos costosos en centros de datos locales.</p>
+                <hr>
+                <form>
+                    <input type="text" placeholder="Introduce tu Nombre">
+                    <br>
+                    <input type="email" placeholder="Introduce tu Email">
+                    <br>
+                    <textarea placeholder="Introduce tu comentario">Introduce tu comentario</textarea>
+                    <br>
+                    <input type="checkbox">Acepto la política de privacidad
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </article>
+        <article>
+            <h2> <a id="noticia3">Buenas prácticas en copias de seguridad</a></h2>
+            <time>10/10/2026 - 17:57 Gadae netweb</time>
+            <section>
+                <h3>Haz copias de seguridad en remoto</h3>
+                <p>Uno de los elementos más importantes que debes tener en cuenta es hacer las copias de
+                     seguridad en remoto. Para que tus backup puedan ser seguros tienes que guardarlos en
+                      un lugar distinto al lugar en el que desarrollas tu trabajo. De esta forma, si hubiera 
+                      algún problema con el hardware o un ataque informático, los datos estarían a salvo en 
+                      otro sistema diferente al tuyo.</p>
+            </section>
+            <hr>
+            <a href="https://www.gadae.com/blog/copias-de-seguridad-buenas-practicas/" target="_blank"><img src="imagenes/imagen3.jpg" alt="Imagen de copia de seguridad" width="500" height="300"></a>
+            <hr>
+            <section>
+                <h3>Automatiza las copias de seguridad</h3>
+                <p>Las copias de seguridad no deben hacerse manualmente, sino de forma sistemática y programada. 
+                    Debe quedar registrada la hora y el minuto en la que se ha hecho la copia de seguridad, de manera 
+                    que puedas tener claro de cuándo es la última versión de un archivo que vas a restaurar en tu 
+                    ordenador.</p>
+                <hr>
+                <form>
+                    <input type="text" placeholder="Introduce tu Nombre">
+                    <br>
+                    <input type="email" placeholder="Introduce tu Email">
+                    <br>
+                    <textarea placeholder="Introduce tu comentario">Introduce tu comentario</textarea>
+                    <br>
+                    <input type="checkbox">Acepto la política de privacidad
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
             </section>
         </article>
     </main>
+    <aside>
+        <h2>Sobre el equipo de ASIR</h2>
+        <p>El ciclo formativo de grado superior de Administración de Sistemas Informáticos en Red (ASIR) 
+            es un programa educativo que forma a los estudiantes en la gestión y administración de sistemas 
+            informáticos y redes. Los estudiantes adquieren conocimientos y habilidades en áreas como la 
+            instalación, configuración y mantenimiento de sistemas operativos, servidores, redes, seguridad 
+            informática y virtualización. El objetivo del ciclo ASIR es preparar a los estudiantes para 
+            desempeñarse como profesionales competentes en el campo de la administración de sistemas y redes, 
+            brindándoles una base sólida para su desarrollo profesional en el ámbito de la tecnología de la información.</p>
+        <a href="https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/admin-sist-informaticos-red.html" target="_blank">Enlaces de interés</a>
+    </aside>
+    <footer>
+        derechos de autor © 2026 Pablo Robles García
+        <a href="#inicio">Volver arriba</a>
+    </footer>
 </body>
 </html>
