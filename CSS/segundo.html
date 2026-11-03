@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo de CSS</title>
+    <style>
+        ul.menu > li {
+            color:red;
+            font-size:20px
+        }
+
+        h2 + p {
+            color:green
+        }
+
+        input[type="text"]{
+            border: 3px solid red
+        }
+
+        input[type="button"]{
+            border: 3px solid blue
+        }
+
+        .rojo {
+            color:red;
+        }
+
+        .verde:hover {
+            color:green;
+            font-size: xx-large;
+            background-image: url(../CSS/imagenes/imagen2.jpg);
+            background-repeat: no-repeat;
+            background-size: 50%;
+        }
+
+        p.rojo::first-letter {
+            font-size: 5em;
+            font-weight: bold;
+            color:blueviolet;
+            background-image: url(../CSS/imagenes/SW.png);
+            background-repeat: no-repeat;
+            background-size: 80%;
+        }
+
+        .bloque{
+            width: 50%;
+            height: 10%;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+
+        .amarillo {
+            color:yellow
+        }
+
+        .verde:hover {
+            font-weight: bold;
+        }
+
+        input:focus{
+            border: 3px red dashed
+        }
+
+        tr:nth-child(odd):hover {
+            background-color: blue
+        }
+
+        tr:nth-child(even):hover {
+            background-color: yellow
+        }
+
+        
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>Primera opción</li>
+        <ul>
+            <li>Primera subopción de la primera opción</li>
+        </ul>
+        <li>Segunda opción</li>
+    </ul>
+<p>Mi primer párrafo</p>
+<h2>Esto es un encabezado de segundo nivel</h2>
+<p>Mi segundo párrafo</p> <!--este es el único que sale en verde-->
+<p>Mi tercer párrafo</p>
+
+<form>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" placeholder="Escribe tu nombre aquí..." id="nombre">
+    <label for="edad">Edad</label>
+    <input type="number" step="5" id="edad">
+    <input type="button" value="Enviar">
+</form>
+
+<p class="rojo">Este parrafo es rojo</p>
+<p class="amarillo">Este parrafo es amarillo</p>
+<p class="verde">Este parrafo es verde</p>
+
+<table>
+    <tr>
+        <th>Celda 1</th>
+        <th>Celda 2</th>
+        <th>Celda 3</th>
+    </tr>
+    <tr>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+        <td>Celda 6</td>
+    </tr>
+    <tr>
+        <td>Celda 7</td>
+        <td>Celda 8</td>
+        <td>Celda 9</td>
+    </tr>
+</table>
+<br>
+<div class="bloque">
+    Pruebas css
+</div>
+<br>
+<img src="imagenes/imagen2.jpg" style="margin: 0px auto; display: block; width: 800px">
+</body>
+</html>
