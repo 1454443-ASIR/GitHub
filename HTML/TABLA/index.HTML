@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis primeras tablas</title>
+    <style>
+        table, td, tr, th{
+            border: 2px solid blueviolet;
+            border-collapse: collapse
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis primeras tablas</h1>
+    <p style="color: red">Aquí publicaré todos los trabajos de lenguaje de marcas</p>
+    <br>
+    <table>
+        <tr>    
+            <th>Posicion</th>
+            <th>Nombre</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1º</td>
+            <td>Juan</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Iván Martínez</td>
+            <td>8</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th>Posición</th>
+            <th>Nombre</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>1º</td>
+            <td colspan="2">Juan</td>
+        </tr>
+        <tr>
+            <td>2º</td>
+            <td>Iván Martínez</td>
+            <td>8</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th>1</th>
+            <th colspan="2">2</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th>1</th>
+            <th>
+                <table>
+                    <tr>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+
+        <tr>
+            <th>1</th>
+            <th>1</th>
+        </tr>
+    </table>
+</body>
+</html>
